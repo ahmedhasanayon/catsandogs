@@ -1,0 +1,199 @@
+body {
+    background: #f0ede6;
+}
+
+.container {
+    background: url("cats.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center no-repeat;
+    position: relative;
+    height: 600px;
+    margin-top: 50px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.halfdiv {
+    background: white;
+    height: 100%;
+    height: 600px;
+}
+
+.halfdiv h1 {
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+form {
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+    float: center;
+}
+
+.spacing {
+    padding-top: 10px;
+}
+
+.col-lg-2 {
+    text-align: center;
+    padding: 0;
+    width: 50px;
+    font-size: 20px;
+}
+
+.halfdiv hr {
+    max-width: 150px;
+    padding: 0px;
+}
+
+.halfdiv .col-lg-5 {
+    padding: 0;
+}
+
+.btn-primary {
+    height: 60px;
+    background: black;
+    color: #fff;
+    display: inline-block;
+    padding: 30px 55px 30px 40px;
+    line-height: 0px;
+    border-radius: 30px;
+    position: relative;
+    transition: .3s;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: yellow;
+    padding-right: 60px;
+    padding-left: 40px;
+    margin-top: 5px;
+    padding-bottom: 25px;
+}
+
+.expands {
+    opacity: .5;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0, -50%);
+    margin-left: 10px;
+}
+
+.btn-primary:hover .expands {
+    transform: translate(60%, -50%);
+    transition: 0.2s;
+    color: yellow;
+}
+
+.cross {
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 10px;
+}
+
+.enterbtn {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logfb {
+    background: #385898;
+    padding: 30px 55px 30px 40px;
+    line-height: 0px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 15px;
+    padding-right: 3%;
+    padding-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.logfb:hover {
+    padding: 20px 0px 20px 0px;
+    line-height: 0px;
+    color: transparent;
+    font-size: 0%;
+    background: #385898;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.1;
+}
+
+.logfb i {
+    color: white;
+    font-size: 0;
+}
+
+.logfb:hover i {
+    color: white;
+    padding: 0%;
+    font-size: 20px;
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 10%;
+    transition: 0.5s;
+}
+
+.loggm {
+    background: #b23121;
+    padding: 30px 55px 30px 40px;
+    line-height: 0px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 15px;
+    padding-right: 3%;
+    padding-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.loggm:hover {
+    padding: 20px 0px 20px 0px;
+    line-height: 0px;
+    color: transparent;
+    font-size: 0%;
+    background: #b23121;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.loggm i {
+    color: white;
+    font-size: 0;
+}
+
+.loggm:hover i {
+    color: white;
+    padding: 0%;
+    font-size: 20px;
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 10%;
+    transition: 0.1;
+}
+
+.text-middle {
+    text-align: center;
+    padding-top: 10%;
+}

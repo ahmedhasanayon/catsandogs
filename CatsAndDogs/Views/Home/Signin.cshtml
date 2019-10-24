@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "Signin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In | Cats&Dogs</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Fira+Sans&display=swap" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/41106f8fd7.js "></script>
+    
+    <link href="~/Content/Login.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6 halfdiv">
+                <a href="@Url.Action("Index", "Home")"><i class="fas fa-times cross"></i></a>
+                
+                <h1>Sign In</h1>
+                <form action="Signin" method="POST" enctype="multipart/form-data">
+                    <div class="form-row align-items-center">
+                        <div class="col-lg-12 spacing">
+                            <label class="sr-only spacing" for="inlineFormInputGroup">Email</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                                </div>
+                                <input type="text" name="email" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 spacing">
+                            <label class="sr-only spacing" for="inlineFormInputGroup">Password</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                                </div>
+                                <input type="text" name="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 text-right">
+                            <a href="">Forgot Password</a>
+                        </div>
+                        <div class="col-lg-12 enterbtn">
+                            <!--<a class="btn btn-primary" href="" role="button">Enter<i class="fas fa-arrow-right expands"></i></a>-->
+                            <button class="create-btn" name="create_btn">Sign in</button>
+                        </div>
+                        <div class="col-lg-12 ">
+                            <a class="btn logfb" href="MyWork.html" role="button">Login With Facebook<i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-12  ">
+                            <a class="btn loggm" href="MyWork.html" role="button">Login With Gmail<i class="far fa-envelope"></i></a>
+                        </div>
+
+                        <div class="col-lg-12 text-middle">
+                            <a href="">Register</a>
+                        </div>
+                    </div>
+                    
+                </form>
+
+            </div>
+            <div class="col-lg-6 layer"></div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
